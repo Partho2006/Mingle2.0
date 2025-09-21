@@ -19,7 +19,7 @@ const StoriesBar = () => {
   }, []);
 
   return (
-    <div className="w-screen sm:w-[calc(100vw-240px)] lg:max-w-2xl overflow-x-auto no-scrollbar px-4">
+    <div className="w-screen sm:w-[calc(100vw-240px)] lg:max-w-2xl overflow-x-auto px-4">
       {/* Scrollable row */}
       <div className="flex gap-4 pb-4">
         {/* Add a story */}
