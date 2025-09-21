@@ -67,7 +67,7 @@ const StoryViewer = ({ viewStory, setViewStory }) => {
 
   return (
     <div
-      className="fixed inset-0 h-screen bg-black bg-opacity-90 z-50 flex items-center justify-center"
+      className="fixed inset-0 h-screen bg-black bg-opacity-90 z-60 flex items-center justify-center"
       style={{
         backgroundColor:
           viewStory.media_type === "text"
@@ -99,7 +99,7 @@ const StoryViewer = ({ viewStory, setViewStory }) => {
       {/* Close button */}
       <button
         onClick={handleClose}
-        className="absolute top-4 right-4 text-white text-3xl font-bold focus:outline-none"
+        className="absolute top-6 right-4 text-white text-3xl font-bold focus:outline-none"
       >
         <X className="w-8 h-8 hover:scale-110 transition cursor-pointer" />
       </button>
